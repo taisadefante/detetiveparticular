@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detetive Particular | Sigilo e Eficiência</title>
+    <meta
+      name="description"
+      content="Detetive particular especializado em investigações conjugais, empresariais e pessoais com total discrição. Atendimento em todo o Brasil."
+    />
+    <meta
+      name="keywords"
+      content="detetive particular, investigação conjugal, detetive empresarial, sigilo, investigações"
+    />
+    <meta name="author" content="Tais Defante" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <style>
+      .btn-pulse {
+        animation: pulse 1.5s infinite;
+      }
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      .hero {
+        background: url("hero.png") no-repeat center center / cover;
+        min-height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      @media (min-width: 768px) {
+        body {
+          background: linear-gradient(180deg, #f0f0f0 0%, #ffffff 100%);
+        }
+      }
+    </style>
+  </head>
+  <body
+    style="
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+    "
+  >
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+      <div class="container-fluid">
+        <!-- Logo à esquerda -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="logo.png" alt="Logo Detetive" style="height: 60px" />
+        </a>
+
+        <!-- Botão hambúrguer para telas menores -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Conteúdo colapsável -->
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarContent"
+        >
+          <!-- Menu centralizado -->
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#servicos">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">Dúvidas</a>
+            </li>
+          </ul>
+
+          <!-- Ícones à direita -->
+          <div class="d-flex gap-3">
+            <a
+              href="https://wa.me/5521988359825"
+              class="text-white btn-pulse fs-4"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+            <a href="https://instagram.com" class="text-white btn-pulse fs-4"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://t.me" class="text-white btn-pulse fs-4"
+              ><i class="fab fa-telegram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero text-center text-white py-5">
+      <div class="container">
+        <h1 class="display-4 fw-bold">Detetive Particular Profissional</h1>
+        <p class="lead">
+          Confidencialidade, experiência e resultados concretos
+        </p>
+        <a
+          href="https://wa.me/5521988359825"
+          class="btn btn-danger btn-lg mt-3 btn-pulse"
+          >Solicite agora via WhatsApp</a
+        >
+      </div>
+    </section>
+
+    <!-- Botão com seta para rolar -->
+    <div class="text-center py-4 bg-dark">
+      <a href="#servicos" class="btn btn-link text-white fs-1 btn-pulse">
+        <i class="fas fa-angle-down"></i>
+      </a>
+    </div>
+
+    <!-- Seção de Serviços -->
+    <section id="servicos" class="py-5" style="background-color: #2c2f36">
+      <div class="container">
+        <h2 class="text-center text-white mb-5">Serviços Oferecidos</h2>
+        <div class="row g-4">
+          <!-- Cards (modelo) -->
+          <div class="col-md-3 col-sm-6 fade-up">
+            <div
+              class="p-4 text-center bg-white text-danger rounded shadow h-100"
+            >
+              <i class="fas fa-users fa-2x mb-3"></i>
+              <h6>Especialista em Redes Sociais</h6>
+              <a
+                href="https://wa.me/5521988359825"
+                class="d-block mt-2 text-success text-decoration-none"
+              >
+                <i class="fab fa-whatsapp"></i> Fale conosco
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 fade-up">
+            <div
+              class="p-4 text-center bg-danger text-white rounded shadow h-100"
+            >
+              <i class="fas fa-search fa-2x mb-3"></i>
+              <h6>Encontrar Pessoas</h6>
+              <a
+                href="https://wa.me/5521988359825"
+                class="d-block mt-2 text-white text-decoration-none"
+              >
+                <i class="fab fa-whatsapp text-success"></i> Fale conosco
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 fade-up">
+            <div
+              class="p-4 text-center bg-black text-danger rounded shadow h-100"
+            >
+              <i class="fas fa-handshake fa-2x mb-3"></i>
+              <h6>Intermediação com Devedores</h6>
+              <a
+                href="https://wa.me/5521988359825"
+                class="d-block mt-2 text-success text-decoration-none"
+              >
+                <i class="fab fa-whatsapp"></i> Fale conosco
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 fade-up">
+            <div
+              class="p-4 text-center bg-danger text-white rounded shadow h-100"
+            >
+              <i class="fas fa-exclamation-triangle fa-2x mb-3"></i>
+              <h6>Intermediação com Golpista</h6>
+              <a
+                href="https://wa.me/5521988359825"
+                class="d-block mt-2 text-white text-decoration-none"
+              >
+                <i class="fab fa-whatsapp text-success"></i> Fale conosco
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 fade-up">
+            <div
+              class="p-4 text-center bg-white text-danger rounded shadow h-100"
+            >
+              <i class="fas fa-binoculars fa-2x mb-3"></i>
+              <h6>Levantamento de Informações</h6>
+              <a
+                href="https://wa.me/5521988359825"
+                class="d-block mt-2 text-success text-decoration-none"
+              >
+                <i class="fab fa-whatsapp"></i> Fale conosco
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 fade-up">
+            <div
+              class="p-4 text-center bg-danger text-white rounded shadow h-100"
+            >
+              <i class="fas fa-lock fa-2x mb-3"></i>
+              <h6>Bens desviados</h6>
+              <a
+                href="https://wa.me/5521988359825"
+                class="d-block mt-2 text-white text-decoration-none"
+              >
+                <i class="fab fa-whatsapp text-success"></i> Fale conosco
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 fade-up">
+            <div
+              class="p-4 text-center bg-danger text-white rounded shadow h-100"
+            >
+              <i class="fas fa-laptop fa-2x mb-3"></i>
+              <h6>Computadores e Celulares</h6>
+              <a
+                href="https://wa.me/5521988359825"
+                class="d-block mt-2 text-white text-decoration-none"
+              >
+                <i class="fab fa-whatsapp text-success"></i> Fale conosco
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 fade-up">
+            <div
+              class="p-4 text-center bg-black text-danger rounded shadow h-100"
+            >
+              <i class="fas fa-folder fa-2x mb-3"></i>
+              <h6>Dossiê Completo Pessoa/Empresa</h6>
+              <a
+                href="https://wa.me/5521988359825"
+                class="d-block mt-2 text-success text-decoration-none"
+              >
+                <i class="fab fa-whatsapp"></i> Fale conosco
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 fade-up">
+            <div
+              class="p-4 text-center bg-danger text-white rounded shadow h-100"
+            >
+              <i class="fas fa-heart-broken fa-2x mb-3"></i>
+              <h6>Golpista Amoroso</h6>
+              <a
+                href="https://wa.me/5521988359825"
+                class="d-block mt-2 text-white text-decoration-none"
+              >
+                <i class="fab fa-whatsapp text-success"></i> Fale conosco
+              </a>
+            </div>
+          </div>
+
+          <!-- Adicionais -->
+          <div class="col-md-3 col-sm-6 fade-up">
+            <div
+              class="p-4 text-center bg-white text-danger rounded shadow h-100"
+            >
+              <i class="fas fa-user-secret fa-2x mb-3"></i>
+              <h6>Monitoramento Discreto</h6>
+              <a
+                href="https://wa.me/5521988359825"
+                class="d-block mt-2 text-success text-decoration-none"
+              >
+                <i class="fab fa-whatsapp"></i> Fale conosco
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 fade-up">
+            <div
+              class="p-4 text-center bg-danger text-white rounded shadow h-100"
+            >
+              <i class="fas fa-comments fa-2x mb-3"></i>
+              <h6>Consultoria Confidencial</h6>
+              <a
+                href="https://wa.me/5521988359825"
+                class="d-block mt-2 text-white text-decoration-none"
+              >
+                <i class="fab fa-whatsapp text-success"></i> Fale conosco
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 fade-up">
+            <div
+              class="p-4 text-center bg-black text-danger rounded shadow h-100"
+            >
+              <i class="fas fa-user-check fa-2x mb-3"></i>
+              <h6>Verificação de Antecedentes</h6>
+              <a
+                href="https://wa.me/5521988359825"
+                class="d-block mt-2 text-success text-decoration-none"
+              >
+                <i class="fab fa-whatsapp"></i> Fale conosco
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-white">
+      <div class="container text-center">
+        <h2 class="mb-4">Vantagens Exclusivas</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <i class="fas fa-lock fa-2x text-danger mb-2"></i>
+            <h5>Sigilo Total</h5>
+            <p>Atendimento confidencial garantido por contrato.</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-user-tie fa-2x text-danger mb-2"></i>
+            <h5>Atuação Profissional</h5>
+            <p>Especialista com +10 anos de experiência real no campo.</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-thumbs-up fa-2x text-danger mb-2"></i>
+            <h5>Alta Satisfação</h5>
+            <p>Clientes indicam e recomendam nosso serviço.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" style="background-color: #dc3545">
+      <div class="container text-white">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="logo.png" alt="Detetive" class="img-fluid rounded" />
+          </div>
+          <div class="col-md-6">
+            <h2>Sobre o Detetive</h2>
+            <p>
+              Com mais de 10 anos de experiência em investigações, atuo com
+              ética, responsabilidade e total confidencialidade. Atendo casos em
+              todo o Brasil com foco em resultados reais e provas sólidas.
+            </p>
+            <a
+              href="https://wa.me/5521988359825"
+              class="btn btn-light btn-pulse mt-3"
+              >Falar com o Detetive</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-white">
+      <div class="container">
+        <h2 class="text-center mb-5">Como Funciona</h2>
+        <div class="row text-center g-4">
+          <div class="col-md-4">
+            <i class="fas fa-phone-alt fa-2x text-danger mb-3"></i>
+            <h5>1. Primeiro Contato</h5>
+            <p>Fale conosco via WhatsApp e descreva seu caso.</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-user-shield fa-2x text-danger mb-3"></i>
+            <h5>2. Análise Confidencial</h5>
+            <p>Seu caso será analisado com total sigilo e profissionalismo.</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-check-circle fa-2x text-danger mb-3"></i>
+            <h5>3. Relatório Conclusivo</h5>
+            <p>Você receberá provas documentadas e relatórios detalhados.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" style="background-color: #dc3545">
+      <div class="container text-white">
+        <h2 class="text-center mb-4">Por que contratar?</h2>
+
+        <div
+          id="carrosselMotivos"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-md-4 text-center">
+                  <div class="border border-light rounded p-3 h-100">
+                    <i class="fas fa-shield-alt fa-2x mb-2"></i>
+                    <h4>Sigilo Absoluto</h4>
+                    <p>
+                      Todo o processo é tratado com máxima confidencialidade.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 text-center">
+                  <div class="border border-light rounded p-3 h-100">
+                    <i class="fas fa-briefcase fa-2x mb-2"></i>
+                    <h4>Experiência Profissional</h4>
+                    <p>
+                      Anos de experiência em investigações eficazes e legais.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 text-center">
+                  <div class="border border-light rounded p-3 h-100">
+                    <i class="fas fa-file-alt fa-2x mb-2"></i>
+                    <h4>Relatórios Completos</h4>
+                    <p>
+                      Entregamos provas documentadas e relatórios detalhados.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-md-4 text-center">
+                  <div class="border border-light rounded p-3 h-100">
+                    <i class="fas fa-map-marker-alt fa-2x mb-2"></i>
+                    <h4>Atendimento Nacional</h4>
+                    <p>
+                      Serviços disponíveis em todo o Brasil com mobilidade
+                      estratégica.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 text-center">
+                  <div class="border border-light rounded p-3 h-100">
+                    <i class="fas fa-user-check fa-2x mb-2"></i>
+                    <h4>Discrição Garantida</h4>
+                    <p>Nenhum dado é exposto sem a sua autorização expressa.</p>
+                  </div>
+                </div>
+                <div class="col-md-4 text-center">
+                  <div class="border border-light rounded p-3 h-100">
+                    <i class="fas fa-clock fa-2x mb-2"></i>
+                    <h4>Agilidade na Resposta</h4>
+                    <p>
+                      Respostas rápidas e investigações iniciadas com urgência.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controles -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carrosselMotivos"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carrosselMotivos"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Perguntas Frequentes</h2>
+        <div class="accordion" id="faqAccordion">
+          <div class="accordion-item border border-danger rounded mb-3">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button text-danger fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq1"
+                aria-expanded="true"
+              >
+                O serviço é totalmente sigiloso?
+              </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                Sim, garantimos sigilo absoluto em todas as etapas da
+                investigação.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item border border-danger rounded mb-3">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed text-danger fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq2"
+              >
+                Posso contratar mesmo morando em outra cidade?
+              </button>
+            </h2>
+            <div id="faq2" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                Sim, atendemos em todo o Brasil e até exterior dependendo do
+                caso.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item border border-danger rounded mb-3">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed text-danger fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq3"
+              >
+                Quanto tempo leva uma investigação?
+              </button>
+            </h2>
+            <div id="faq3" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                Depende da complexidade do caso, mas sempre buscamos o resultado
+                no menor tempo possível.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 text-white" style="background-color: #2c2f36">
+      <div class="container text-center">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <h1 class="display-5 fw-bold text-danger" id="clientes">+500</h1>
+            <p>Clientes Atendidos</p>
+          </div>
+          <div class="col-md-4">
+            <h1 class="display-5 fw-bold text-danger" id="casos">+350</h1>
+            <p>Casos Resolvidos</p>
+          </div>
+          <div class="col-md-4">
+            <h1 class="display-5 fw-bold text-danger" id="anos">10</h1>
+            <p>Anos de Experiência</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      // Simples contador animado
+      const animateValue = (id, end) => {
+        let start = 0;
+        const duration = 2000;
+        const increment = Math.ceil(end / (duration / 30));
+        const obj = document.getElementById(id);
+        const timer = setInterval(() => {
+          start += increment;
+          obj.innerText = start >= end ? end : start;
+          if (start >= end) clearInterval(timer);
+        }, 30);
+      };
+      window.onload = () => {
+        animateValue("clientes", 500);
+        animateValue("casos", 350);
+        animateValue("anos", 10);
+      };
+    </script>
+
+    <section class="py-5" style="background-color: #dc3545">
+      <div class="container">
+        <h2 class="text-center mb-5">Avaliações de Clientes</h2>
+
+        <div
+          id="carouselAvaliacoes"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="row justify-content-center g-4">
+                <div class="col-md-4">
+                  <div class="card border border-danger shadow-sm h-100">
+                    <div class="card-body text-center">
+                      <p class="fst-italic">
+                        “Excelente atendimento, consegui descobrir tudo com
+                        total discrição!”
+                      </p>
+                      <h6 class="fw-bold text-danger">- Ana P.</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card border border-danger shadow-sm h-100">
+                    <div class="card-body text-center">
+                      <p class="fst-italic">
+                        “Profissionalismo e eficiência. Recomendo fortemente.”
+                      </p>
+                      <h6 class="fw-bold text-danger">- Carlos M.</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card border border-danger shadow-sm h-100">
+                    <div class="card-body text-center">
+                      <p class="fst-italic">
+                        “Atendimento sigiloso e resultado rápido. Excelente
+                        serviço!”
+                      </p>
+                      <h6 class="fw-bold text-danger">- Juliana R.</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <div class="row justify-content-center g-4">
+                <div class="col-md-4">
+                  <div class="card border border-danger shadow-sm h-100">
+                    <div class="card-body text-center">
+                      <p class="fst-italic">
+                        “Recomendo demais. Investigação ágil e completa.”
+                      </p>
+                      <h6 class="fw-bold text-danger">- Bruno S.</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card border border-danger shadow-sm h-100">
+                    <div class="card-body text-center">
+                      <p class="fst-italic">
+                        “Serviço sigiloso, transparente e com muito
+                        profissionalismo.”
+                      </p>
+                      <h6 class="fw-bold text-danger">- Fernanda L.</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card border border-danger shadow-sm h-100">
+                    <div class="card-body text-center">
+                      <p class="fst-italic">
+                        “Fiquei impressionado com a eficiência da investigação.”
+                      </p>
+                      <h6 class="fw-bold text-danger">- Rafael M.</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controles -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselAvaliacoes"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bg-dark rounded-circle p-2"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselAvaliacoes"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bg-dark rounded-circle p-2"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light py-5">
+      <div class="container text-center">
+        <h2 class="mb-4">Sua segurança é prioridade</h2>
+        <p class="mb-4">
+          Garantimos total proteção dos seus dados e acompanhamento jurídico
+          quando necessário. Nosso atendimento é registrado e documentado.
+        </p>
+        <i class="fas fa-shield-alt fa-3x text-danger"></i>
+      </div>
+    </section>
+
+    <section id="contato-final" class="bg-danger text-white text-center py-5">
+      <div class="container">
+        <h2 class="mb-4">Fale Conosco Agora</h2>
+        <p class="lead mb-4">
+          Tire suas dúvidas ou inicie sua investigação com total sigilo.
+        </p>
+        <a
+          href="https://wa.me/5521988359825"
+          class="btn btn-light btn-lg btn-pulse"
+          >Chamar no WhatsApp</a
+        >
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+      <div
+        class="container d-flex justify-content-between align-items-center flex-wrap"
+      >
+        <div class="mb-2">
+          <img src="logo.png" alt="Logo Detetive" style="height: 50px" />
+        </div>
+        <div class="text-center flex-fill">
+          <span>&copy; 2025 Detetive Particular Profissional</span><br />
+          <a
+            href="#"
+            class="text-decoration-none text-secondary"
+            data-bs-toggle="modal"
+            data-bs-target="#termoModal"
+            >Termos de Privacidade</a
+          >
+        </div>
+        <div class="text-end">
+          <small>
+            Desenvolvido por
+            <a
+              href="https://defansolucoesdigitais.com.br"
+              class="text-decoration-none text-secondary"
+              target="_blank"
+            >
+              Defan Soluções Digitais </a
+            ><br />
+            Desenvolvedora: Tais Defante
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal de Termos de Privacidade -->
+    <div
+      class="modal fade"
+      id="termoModal"
+      tabindex="-1"
+      aria-labelledby="termoModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="termoModalLabel">
+              Termos de Privacidade
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Fechar"
+            ></button>
+          </div>
+          <div class="modal-body" style="max-height: 60vh; overflow-y: auto">
+            <p>
+              Este site coleta e trata informações pessoais fornecidas por você
+              para fins de contato e atendimento personalizado. Utilizamos
+              cookies e tecnologias semelhantes para melhorar sua experiência.
+              Todas as informações são tratadas com confidencialidade e não são
+              compartilhadas com terceiros sem sua autorização. Ao utilizar este
+              site, você concorda com os termos aqui descritos.
+            </p>
+            <p>
+              Você tem o direito de acessar, corrigir ou excluir seus dados
+              pessoais a qualquer momento, mediante solicitação. Garantimos a
+              segurança dos seus dados conforme as diretrizes da Lei Geral de
+              Proteção de Dados (LGPD).
+            </p>
+            <p>
+              Para mais informações, entre em contato conosco através dos canais
+              disponíveis neste site.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Fechar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
